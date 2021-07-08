@@ -1,0 +1,8 @@
+.nav {
+    height: 500px;
+    background-color: rgb(111,168,220);
+    margin-top: 20px;
+    margin-right: 20px;
+    flex-grow: 1;
+    border: 2px solid black;
+}

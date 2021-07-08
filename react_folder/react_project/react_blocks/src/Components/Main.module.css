@@ -1,0 +1,10 @@
+.main {
+    height: 700px;
+    background-color: rgb(224,102,102);
+    margin-top: 20px;
+    flex-grow: 5;
+    border: solid 2px black;
+    display: flex;
+    padding: 20px 0px 20px 20px;
+    flex-wrap: wrap;
+}
