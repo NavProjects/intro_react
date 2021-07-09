@@ -4,9 +4,6 @@ import styles from './Subcontent.module.css';
 class Subcontent extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            age: this.props.age
-        }
     }
     render() {
         return (

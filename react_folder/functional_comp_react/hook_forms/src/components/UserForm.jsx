@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Results from './ResultForm';
 
 const UserForm = props => {
     const [username, setUsername] = useState("");
@@ -36,20 +36,10 @@ const UserForm = props => {
                 <input type="text" onChange={(e) => setConfirmPassword(e.target.value)} value={ confirmPassword } />
             </div>
             <input type="submit" value="Reset User" />
-            <div>
-                <p> Username:{ username } </p>
-            </div>
-            <div>
-                <p> Email:{ email } </p>
-            </div>
-            <div>
-                <p> Password:{ password } </p>
-            </div>
-            <div>
-                <p> Confirm Password:{ confirmPassword } </p>
-            </div>
+            <Results username={username} email={email} password={password} confirmPassword={confirmPassword} />
         </form>
     );
 };
+
 
 export default UserForm;

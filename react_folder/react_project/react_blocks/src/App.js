@@ -9,8 +9,7 @@ import Advertisement from './Components/Advertisement';
 
 function App() {
   return (
-    <div className="main">
-      <div className="App-container">
+      <div className="App-container main">
         <Header />
         <div className="flex">
           <Navigation />
@@ -22,7 +21,6 @@ function App() {
           </Main>
         </div>
       </div>
-    </div>
   );
 }
 
