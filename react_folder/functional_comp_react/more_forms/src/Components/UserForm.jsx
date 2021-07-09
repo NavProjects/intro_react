@@ -64,8 +64,8 @@ const UserForm = props => {
         if (e.target.value.length < 8 && e.target.value.length > 0) {
             setConfirmPassError("Password must be at least 8 Characters");
         }
-        else if (e.target.value != password ) {
-            setPasswordError("Passwords must match")
+        else if (e.target.value != password && e.target.value.length > 0) {
+            setConfirmPassError("Passwords must match")
         }
         else {
             setConfirmPassError("")
