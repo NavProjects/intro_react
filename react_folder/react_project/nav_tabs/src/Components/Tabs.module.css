@@ -1,0 +1,10 @@
+/* Tabs.module.css */
+
+.btn {
+    padding: 12px 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: black;
+    color: #fff;
+    border: none;
+}
