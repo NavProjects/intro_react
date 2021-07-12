@@ -39,9 +39,9 @@ const AddColor = (props) => {
             <label>Color:</label>
             <input type="text" name="color" onChange={handleChange} value={info.color}/>
             <label>Height:</label>
-            <input type="text" name="height" onChange={handleChange} value={info.height}/>
+            <input type="number" name="height" onChange={handleChange} value={info.height}/>
             <label>Width:</label>
-            <input type="text" name="width" onChange={handleChange} value={info.width}/>
+            <input type="number" name="width" onChange={handleChange} value={info.width}/>
             <input type="submit" value="Add" />
         </form>
     );

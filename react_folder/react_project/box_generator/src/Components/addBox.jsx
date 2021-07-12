@@ -7,7 +7,7 @@ const ShowBox = (props) => {
     console.log(info)
 
     const box = {
-        background: `${info.color}`,
+        background: info.color,
         height:`${info.height}px`,
         width:`${info.width}px`,
     };
