@@ -1,0 +1,14 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    text-decoration: line-through;
+    color: blue;
+}
+
+.nothing{
+    text-decoration: none;
+}
