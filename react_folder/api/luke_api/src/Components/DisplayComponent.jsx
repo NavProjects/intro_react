@@ -14,7 +14,9 @@ const DisplayComponent = props => {
 
     useEffect(() => {
         axios.get(`https://swapi.dev/api/${info}/${id}`)
-            .then(response => {setPepPlan(response.data)})
+            .then(response => {
+                setError(false)
+                setPepPlan(response.data)})
             .catch(err => {console.log(err)
             setError(true)})
     }, [info, id]);
